@@ -1,6 +1,9 @@
 import java.util.concurrent.Semaphore;
 
 class Scratch {
+        
+    // TODO:- For MUTEX implementation check following blog: [https://www.baeldung.com/java-mutex]
+    
     static Semaphore semaphore = new Semaphore(3);
     public static void main(String[] args) throws InterruptedException {
 
